@@ -7,6 +7,7 @@ import (
 )
 
 var _ = Describe("Insertionsort", func() {
+
 	When("an empty input is given", func() {
 		var (
 			result []int
